@@ -1,7 +1,7 @@
 #!/bin/bash
 read -p "enter a number" n
 fact=1
-if [ $n -lt 0 ]
+if ((n<0))
 then
         echo "enter a valid number"
 else

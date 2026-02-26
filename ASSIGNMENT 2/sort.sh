@@ -18,3 +18,6 @@ do
         arr[i]=${temp}
 done
 echo "sorted array : ${arr[@]}"
+
+
+#array ke liye curly braces use
